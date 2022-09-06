@@ -1,0 +1,1476 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+.m_nome,
+.paragrafo {
+    font-family: 'Shadows Into Light', cursive !important;
+}
+
+img,
+iframe {
+    border: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.contenitore {
+    max-width: 1170px;
+    margin: 0 auto 0;
+}
+
+.cont_txt {
+    min-width: 645px;
+    /*margin-left: -585px;*/
+    position: absolute;
+    top: 242px;
+    left: 50%;
+    border-radius: 24px;
+    background-color: rgba(118, 115, 117, 0.5);
+    text-align: center;
+    box-shadow: 10px 10px 12px -3px #ffecb3;
+}
+
+.paragrafo {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 62px 10px 29px;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 500;
+    padding-top: 32px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.col_dx {
+    float: right;
+}
+
+.col_sx {
+    float: left;
+}
+
+/******************MENU*******************/
+
+#cont_logo_menu {
+    background-color: rgba(77, 72, 72, 0.3);
+    height: 90px;
+}
+
+.cont {
+    max-width: 1500px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+#logo img {
+    float: left;
+    margin-top: 5px;
+}
+
+/*#menu ul li a:first-child {
+    margin-left: 90px;
+}*/
+
+#menu ul {
+    float: right;
+}
+
+#menu ul li {
+    float: left;
+    margin: 0 35px;
+}
+
+#menu ul li a,
+#menu ul li p {
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 100px;
+    display: block;
+    height: 90px;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-family: 'Shadows Into Light', cursive !important;
+}
+
+#menu ul li ul a:hover {
+    color: darkorange;
+    border-bottom: 5px solid darkorange;
+}
+
+#menu ul li a:hover {
+    color: darkorange;
+}
+
+#menu ul li {
+    list-style-type: none;
+    position: relative;
+}
+
+#menu ul ul {
+    display: none;
+    position: absolute;
+    top: 90px;
+}
+
+/*.c_appoggio {
+    left: 852px;
+}
+
+.c_consigli {
+    left: 1001px;
+}
+
+.c_eventi {
+    left: 1151px;
+}*/
+
+/*#menu ul li:hover ul {  //disattivato perchè attivo il sotto menù tramite JQuery
+    display: block;
+}*/
+
+#menu ul ul li {
+    margin: 0 !important;
+}
+
+#menu ul ul a {
+    background-color: rgba(77, 72, 72, 0.3);
+    color: #fff;
+    width: 125px;
+    height: 50px;
+    line-height: 50px;
+    /*
+    padding: 0 10px;*/
+    text-align: center;
+}
+
+#menu ul ul a:hover {
+    background-color: rgba(77, 72, 72, 0.7);
+    color: #ff7f00;
+}
+
+.evidence:hover {
+    color: darkorange;
+    border-bottom: 5px solid darkorange;
+}
+
+.tria:after {
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 63px;
+    left: 50%;
+    margin-left: -10px;
+    border-bottom: 7px solid transparent;
+    border-top: 7px solid #fff;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+}
+
+.tria:hover:after {
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 63px;
+    left: 50%;
+    margin-left: -10px;
+    border-bottom: 7px solid transparent;
+    border-top: 7px solid darkorange;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+}
+
+/************* SLIDER **************/
+
+#slider {
+    background: url(../img/slider.jpg) no-repeat center beige;
+    background-size: cover;
+    min-height: 992px;
+    position: relative;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+/**********************FILOSOFIA*******************/
+
+#filosofia {
+    min-height: 880px;
+    background-color: #fff8dc;
+}
+
+#filosofia .col_sx {
+    width: 400px;
+    line-height: 49px;
+    text-align: center;
+}
+
+.col_sx .paragrafo {
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+figcaption {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+/*****************CORRIDORI*********************/
+
+#i_corridori {
+    min-height: 895px;
+    background: url(../img/corridori1.jpg) no-repeat center beige;
+    background-size: cover;
+}
+
+#i_corridori p {
+    font-size: 24px;
+}
+
+#i_corridori a {
+    font-size: 19px;
+    color: black;
+}
+
+#a_corridori {
+    width: 288px;
+    display: block;
+    background-color: yellow;
+    height: 46px;
+    margin: 50px auto 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 12px -3px #ffecb3;
+    text-align: center;
+    line-height: 46px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+
+
+    transition-property: color, background-color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+}
+
+#a_corridori:hover,
+#consigli a:hover {
+    transition: 2s;
+    background-color: darkorange;
+}
+
+#i_corridori ul li {
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+#corridori h3 {
+    font-size: 29px;
+    font-weight: 500;
+}
+
+/*************MARATONE***************/
+
+#maratone,
+#i_maratone {
+    min-height: 700px;
+    background-color: #fff9f1;
+}
+
+#cont_s_maratone {
+    width: 935px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#img_maratone {
+    display: block;
+    border: 2px solid grey;
+    box-shadow: 10px 10px 12px -3px #ffecb3;
+    ;
+}
+
+#link_maratone {
+    float: right;
+    margin-top: 63px;
+    transition: ease 0.5s;
+}
+
+#link_maratone:hover {
+    transform: translate(25px);
+    transition: 0.4s;
+}
+
+#par_maratone {
+    width: 600px;
+    float: left;
+}
+/*
+.my_text_box {
+    display: block;
+    
+     max-height: 70px;
+    overflow: hidden;
+}*/
+
+#i_maratone figure {
+    padding-bottom: 30px;
+}
+
+/*******************APPOGGIO**************************/
+
+#i_appoggio {
+    min-height: 500px;
+    background: url(../img/appoggio.jpg) no-repeat center lightblue;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.pallino {
+    width: 152px;
+    height: 58px;
+    position: absolute;
+    border-radius: 76px;
+    display: table;
+    z-index: 2;
+}
+
+.interno_pallino {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.orange {
+    background-color: rgba(255, 148, 10, 0.7);
+    box-shadow: 2px 4px 3px 0px grey;
+}
+
+#appoggio_par {
+    width: 244px;
+    color: gold;
+    margin: 63px 75% 0 0;
+    font-size: 22px;
+    line-height: 46px;
+    text-align: center;
+}
+
+#primo {
+    position: absolute;
+    top: 356px;
+    left: 350px;
+    z-index: 1;
+    transition: 0.2s ease-in-out;
+}
+
+#primo:hover {
+    color: white;
+    box-shadow: 4px 6px 3px 0px grey;
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.titoletto {
+    font-size: 18px;
+    font-weight: 400;
+    color: darkred;
+    font-style: italic;
+    text-align: center;
+    line-height: 12px;
+}
+
+.interno_pallino span {
+    display: block;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #333;
+}
+
+.interno_pallino span:before {
+    display: block;
+    content: '';
+    width: 20px;
+    height: 2px;
+    margin: 10px auto;
+    background-color: #fff;
+}
+
+#sfondo_blu_sx {
+    position: absolute;
+    z-index: 1;
+    top: 21px;
+    left: 67px;
+}
+
+#titolo_appoggio {
+    font-size: 43px;
+    color: gold;
+    text-transform: uppercase;
+    margin-bottom: 69px;
+}
+
+#i_appoggio ul li {
+    color: gold;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 59px;
+    margin-left: 89px;
+}
+
+#sfondo_blu_sx:after {
+    display: block;
+    content: "";
+    width: 705px;
+    min-height: 520px;
+    position: relative;
+    top: -340px;
+    left: -212px;
+    background-color: rgba(29, 37, 185, 0.7);
+    -webkit-transform: skew(-45deg);
+    -moz-transform: skew(30deg);
+    -o-transform: skew(30deg);
+    -ms-transform: skew(30deg);
+    transform: skew(30deg);
+    z-index: -1;
+}
+
+#sfondo_blu_dx {
+    position: absolute;
+    z-index: 1;
+    top: -50px;
+    left: 80%;
+}
+
+#sfondo_blu_dx:after {
+    display: block;
+    content: "";
+    width: 705px;
+    min-height: 550px;
+    position: relative;
+    top: -479px;
+    left: -14%;
+    background-color: rgba(29, 37, 185, 0.7);
+    -webkit-transform: skew(-45deg);
+    -moz-transform: skew(30deg);
+    -o-transform: skew(30deg);
+    -ms-transform: skew(30deg);
+    transform: skew(30deg);
+    z-index: -1;
+}
+
+
+/*************CONSIGLI***************/
+
+
+#consigli {
+    border-top: 4px dashed gold;
+}
+
+#consigli .contenitore {
+    height: 900px;
+    padding: 20px;
+    text-align: center;
+}
+
+#i_alimentazione {
+    width: 50%;
+    height: 100%;
+    background: url(../img/alimentazione.png) no-repeat center;
+    background-size: cover;
+    float: left;
+}
+
+#i_abbigliamento {
+    width: 50%;
+    height: 100%;
+    background: url(../img/abbigliamento.png) no-repeat center;
+    background-size: cover;
+    float: right;
+}
+
+#consigli a {
+    display: block;
+    width: 175px;
+    height: 50px;
+    background-color: gold;
+    margin: 50px auto;
+    border-radius: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+#consigli .consigli_int {
+    background-color: rgba(193, 193, 193, 0.6);
+    width: 450px;
+    height: 750px;
+    margin: 75px 75px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px 1px lightyellow;
+}
+
+.consigli_int p {
+    font-size: 25px;
+    color: black;
+    margin: 86px 72px;
+    height: 303px;
+    line-height: 63px;
+}
+
+
+/********************CORRIDORI.HTML********************/
+
+#slid {
+    height: 90px;
+    background: url(../img/slider.jpg) no-repeat 0 -767px beige;
+    background-size: cover;
+}
+
+#space {
+    height: 1px;
+}
+
+.atleta {
+    display: block;
+    font-size: 32px;
+    color: red;
+    margin: 26px 0 35px;
+    text-align: center;
+    height: 7px;
+}
+
+#corridori .sfondo {
+    background-color: #fff8dc;
+    border-left: 3px dashed black;
+    border-right: 3px dashed black;
+}
+
+#corridori img {
+    display: block;
+    margin: 42px auto 0;
+    border-radius: 21px;
+}
+
+#corridori figure {
+    padding-bottom: 20px;
+}
+
+#corridori figure:last-child {
+    display: block;
+    margin: 42px auto 0;
+    padding-bottom: 20px;
+    border-radius: 21px;
+}
+
+#corridori li {
+    padding: 0 10px;
+    font-weight: 100;
+}
+
+/************************MARATONE.HTML*******************/
+
+
+#maratone table {
+    width: 800px;
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+#maratone table td {
+    border: 1px dashed grey;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+#maratone table tr:first-child {
+    font-weight: 700;
+    background-color: darkorange;
+    font-size: 23px;
+}
+
+.m_nome {
+    display: block;
+    text-align: left;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-top: 45px;
+}
+
+#maratone .contenitore,
+#corridori figure {
+    border-bottom: 3px solid red;
+    min-width: 1000px;
+}
+
+#maratone .contenitore:last-child {
+    border-bottom: none;
+}
+
+.p_maratone {
+    font-size: 22px;
+    margin: 20px 43px;
+    width: 500px;
+    overflow: hidden;
+    height: 76px;
+}
+
+.cont_m_sx {
+    float: left;
+
+}
+
+#maratone img {
+    display: block;
+    float: right;
+    margin: 3% 20px;
+    height: 303px;
+}
+
+#maratone a {
+    color: black;
+}
+
+#maratone a:hover {
+    border-bottom: 2px darkorange solid;
+    font-weight: bold;
+}
+
+#maratone table td:nth-child(2) {
+    width: 300px;
+}
+
+#maratone img {
+    opacity: 0.4;
+}
+
+.m_button {
+    background-color: yellow;
+    font-size: 19px;
+    text-align: center;
+    margin: 92px 50px 58px;
+    height: 34px;
+    width: 157px;
+    border-radius: 28px;
+    padding: 8px 20px;
+    box-shadow: 1px 1px 10px -3px grey;
+    display: block;
+    text-transform: uppercase;
+    transition-property: color, background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.m_button:hover {
+    transition: 0.3s;
+    background-color: orange;
+}
+
+/***************************APPOGGIO.HTML***********************/
+
+
+#appoggio {
+    background-color: #f7f7ff;
+    color: darkblue;
+}
+
+#appoggio a {
+    color: darkblue;
+}
+
+
+#appoggio .contenitore {
+    background-color: #fbf0cb;
+    box-shadow: 2px 2px 10px 5px grey;
+}
+
+#appoggio h4,
+#appoggio h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+#appoggio h3 {
+    font-size: 40px;
+    padding-top: 45px;
+}
+
+#appoggio h4 {
+    font-size: 35px;
+    padding-top: 60px;
+}
+
+#appoggio ul {
+    margin: 25px 0 25px 50px;
+    font-size: 21px;
+}
+
+#appoggio img {
+    display: block;
+    margin: 35px auto 0;
+    padding-bottom: 35px;
+}
+
+#appoggio p {
+    margin: 0 30px;
+    font-size: 21px;
+}
+
+.fascia {
+    background: url(../img/appoggio/fascia.png) repeat-x;
+    background-size: contain;
+    height: 95px;
+    width: 69%;
+    margin: 70px auto 0;
+}
+
+#neutro,
+#pronatore {
+    border-bottom: 4px solid orange;
+}
+
+
+/*****************************ALIMENTAZIONE HTML**********************************/
+
+
+/* SLIDER */
+
+
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+
+    12.3% {
+        left: 0%;
+    }
+
+    23.5% {
+        left: -101%;
+    }
+
+    34.6% {
+        left: -101%;
+    }
+
+    45.7% {
+        left: -200%;
+    }
+
+    56.8% {
+        left: -200%;
+    }
+
+    67.9% {
+        left: -100%;
+    }
+
+    79.1% {
+        left: -100%;
+    }
+
+    90.2% {
+        left: -0%;
+    }
+
+    100% {
+        left: -0%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#captioned-gallery {
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0 80px;
+    border: 2px black solid;
+}
+
+#captioned-gallery img {
+    margin-right: -1px;
+}
+
+figure.slider {
+    position: relative;
+    width: 500%;
+    animation: 20s slidy infinite;
+}
+
+figure.slider figure {
+    width: 20%;
+    height: auto;
+    display: inline-block;
+}
+
+figure.slider img {
+    width: 100%;
+    height: auto;
+}
+
+    {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    width: 100%;
+}
+
+/* FINE SLIDER */
+
+
+#alimentazione .contenitore,
+#abbigliamento .contenitore {
+    width: 1061px;
+}
+
+#abbigliamento .par_consigli,
+#alimentazione .par_consigli {
+    width: 849px;
+    margin: 50px auto 0;
+    font-size: 29px;
+    text-align: left;
+    font-weight: 100;
+}
+
+
+#i_alimentazione h4,
+#i_abbigliamento h4 {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 0 50px;
+}
+
+.sottopar_consigli {
+    font-size: 24px;
+    text-align: left;
+    padding: 0 15px 12px 62px;
+    margin-bottom: 46px;
+    ;
+}
+
+#alimentazione ul li,
+#alimentazione a {
+    font-size: 26px;
+    color: black;
+}
+
+#alimentazione ul li:first-child {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: red;
+    text-transform: uppercase;
+}
+
+#alimentazione ul li {
+    list-style: none;
+    text-align: center;
+}
+
+#alimentazione ul {
+    float: left;
+    margin: 0 80px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px grey;
+    width: 296px;
+    height: 297px;
+    border-radius: 121px;
+}
+
+.colonna_dx_img {
+    float: right;
+    margin-bottom: 50px;
+}
+
+.colonna_dx_img,
+.colonna_sx_img {
+    border-radius: 20px;
+    display: block;
+}
+
+.colonna_sx_img {
+    float: left;
+}
+
+.space {
+    margin-bottom: 90px;
+    clear: both;
+}
+
+#prima {
+    background-color: rgba(0, 185, 0, 0.5);
+}
+
+#durante {
+    background-color: rgba(255, 168, 180, 0.5);
+}
+
+#dopo {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#prima,
+#durante,
+#dopo {
+    box-shadow: 1px 1px 5px 2px grey;
+    border-radius: 10px;
+}
+
+#alimentazione,
+#abbigliamento {
+    margin-bottom: 50px;
+}
+
+#pie_pagina {
+    height: 30px;
+    background-color: orange;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+#freccia_sx,
+#freccia_dx {
+    position: fixed;
+    bottom: 25px;
+    z-index: 999999;
+}
+
+#freccia_dx {
+    right: 4px;
+    transition: 0.4s ease-in-out;
+}
+
+#freccia_dx:hover {
+    transform: translate(30px, -20px);
+    transition: 0.4s ease-in-out;
+}
+
+#alimentazione h4 {
+    font-size: 31px;
+    text-align: center;
+}
+
+#abbigliamento h3 {
+    font-size: 37px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#freccia_sx {
+    left: 4px;
+    transition: 0.4s ease-in-out;
+}
+
+#freccia_sx:hover {
+    transform: translate(-30px, -20px);
+    transition: 0.4s ease-in-out;
+}
+
+/*********************************ABBIGLIAMENTO.HTML*****************************/
+#wrapper {
+    margin: 70px auto 100px auto;
+    /*
+    max-width: 960px;*/
+}
+
+.cont_vestiario {
+    list-style: none;
+}
+
+footer {
+    float: left;
+    margin-top: 120px;
+    height: 70px;
+    width: 100px;
+    background: #333;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/*****************************
+    Costruiamo il vestiario
+*****************************/
+.forma {
+    width: 260px;
+    height: 400px;
+    margin: 46px;
+    float: left;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-box-shadow: -1px -1px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: -1px -1px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: -1px -1px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.vestiario {
+    width: 260px;
+    height: 400px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: translateZ(-130px);
+    -moz-transform: translateZ(-130px);
+    transform: translateZ(-130px);
+    -webkit-transition: transform 320ms;
+    -moz-transition: transform 320ms;
+    transition: transform 320ms;
+    cursor: pointer;
+}
+
+/*****************************
+    Ruotiamo la forma
+*****************************/
+.vestiario:hover {
+    -webkit-transform: rotateY(-78deg) translateZ(20px);
+    -moz-transform: rotateY(-78deg) translateZ(20px);
+    transform: rotateY(-78deg) translateZ(20px);
+}
+
+/*****************************
+    Trasforma e stile
+*****************************/
+.vestiario .front,
+.vestiario .info {
+    position: absolute;
+    width: 260px;
+    height: 400px;
+    background-color: #fff;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.vestiario .front {
+    -webkit-transform: translateZ(130px);
+    -moz-transform: translateZ(130px);
+    transform: translateZ(130px);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.vestiario .info {
+    -webkit-transform: rotateY(90deg) translateZ(130px);
+    -moz-transform: rotateY(90deg) translateZ(130px);
+    transform: rotateY(90deg) translateZ(130px);
+    border: 1px solid #ccc;
+    font-size: 17px;
+}
+
+/*******************************
+Ombra base alla forma del vestiario
+*******************************/
+.vestiario:after {
+    content: '';
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.9);
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    -webkit-transform: rotateX(90deg) translateY(130px);
+    -moz-transform: rotateX(90deg) translateY(130px);
+    transform: rotateX(90deg) translateY(130px);
+    -webkit-transition: box-shadow 350ms;
+    -moz-transition: box-shadow 350ms;
+    transition: box-shadow 350ms;
+}
+
+.vestiario:hover:after {
+    box-shadow: 50px -5px 50px rgba(0, 0, 0, 0.4);
+}
+
+/*******************************
+        Info vestiario
+*******************************/
+.info header {
+    color: #fff;
+    padding: 7px 10px;
+    font-weight: bold;
+    height: 195px;
+    background-repeat: no-repeat;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 2);
+}
+
+.info header h1 {
+    margin: 10px 0 0 3px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.info header .prezzo {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 40px;
+    padding: 10px;
+    float: left;
+    background: #ff7f00;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.info header .autore {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.info p {
+    padding: 19px 22px;
+    margin: 2px 0 0;
+    font-weight: 700;
+    color: #666;
+    line-height: 18px;
+    border-top: 20px solid #f8b500;
+}
+
+/*******************************
+        Ombra Box
+*******************************/
+.vestiario .front {
+    box-shadow: inset 0px 0px 40px rgba(255, 255, 255, 0);
+}
+
+.vestiario:hover .front {
+    box-shadow: inset 300px 0px 40px rgba(255, 255, 255, 0.8);
+
+}
+
+.vestiario .info,
+.vestiario .info header {
+    box-shadow: inset -300px 0px 40px rgba(0, 0, 0, 0.5);
+
+}
+
+.vestiario:hover .info,
+.vestiario:hover .info header {
+    box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0);
+
+}
+
+.vestiario .front,
+.vestiario .info,
+.vestiario .info header {
+    -webkit-transition: box-shadow 350ms;
+    -moz-transition: box-shadow 350ms;
+    transition: box-shadow 350ms;
+}
+
+/*******************************
+    Copertina e Immagine
+*******************************/
+.forma:nth-child(1) .front {
+    background-image: url(../img/abbigliamento/maglia1.JPG);
+    background-position: center;
+}
+
+.forma:nth-child(2) .front {
+    background-image: url(../img/abbigliamento/maglia2.JPG);
+    background-position: center;
+}
+
+.forma:nth-child(3) .front {
+    background-image: url(../img/abbigliamento/maglia3.jpg);
+    background-position: center;
+}
+
+.forma:nth-child(4) .front {
+    background-image: url(../img/abbigliamento/pantaloni1.JPG);
+    background-position: center;
+}
+
+.forma:nth-child(5) .front {
+    background-image: url(../img/abbigliamento/pantaloni2.JPG);
+    background-position: center;
+}
+
+.forma:nth-child(6) .front {
+    background-image: url(../img/abbigliamento/pantaloni3.jpg);
+    background-position: center;
+}
+
+.forma .info header {
+    background-color: #f80000;
+}
+
+
+/****************************REGIONALI.HTML********************************/
+
+#eventi .par_consigli {
+    width: auto !important;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 29px;
+}
+
+#eventi table {
+    border-collapse: collapse;
+    margin: 0 20px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+}
+
+#eventi table tr:first-child td {
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 39px !important;
+    background-color: darkorange;
+    font-size: 26px;
+}
+
+#eventi table tr:nth-child(2) td {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#eventi table tr td {
+    font-size: 20px;
+    text-align: center;
+}
+
+#eventi table td {
+    border: 2px dotted black;
+}
+
+#eventi table td:nth-child(odd) {
+    background-color: #fff04b;
+}
+
+.aree {
+    border: 2px solid black;
+}
+
+#eventi td {
+    width: 11.1111%;
+}
+
+#eventi td:nth-child(5) {
+    width: 2%;
+    opacity: 0;
+    border: none;
+}
+
+#eventi h3,
+#eventi h4 {
+    margin: 6px auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#eventi h3 {
+    font-size: 35px;
+}
+
+#eventi h4 {
+    font-size: 30px;
+}
+
+#eventi .clear {
+    height: 25px;
+}
+
+/****************FORUM.HTML*********************/
+
+form {
+    width: 756px;
+    background-color: #85d4ff;
+    font-size: 20px;
+    margin: 25px auto;
+    border-radius: 9px;
+    box-shadow: 2px 1px 10px 2px grey;
+    margin-bottom: 250px;
+}
+
+input,
+textarea,
+select {
+    font-size: 18px;
+}
+
+input,
+label,
+textarea {
+    margin: 0px 15px 0;
+}
+
+select {
+    margin: 0 -10px 0;
+}
+
+label {
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.centra {
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+    width: 734px;
+    height: 120px;
+}
+
+input[type=text],
+[type=email] {
+    width: 344px;
+}
+
+input[type=submit] {
+    width: 120px;
+    height: 34px;
+    background-color: #ffa200;
+    border-radius: 9px;
+    margin-bottom: 15px;
+}
+
+#forum .par_consigli {
+    font-size: 25px;
+    padding: 35px 0 50px;
+}
+
+.linea:after {
+    display: block;
+    content: "";
+    width: 98%;
+    height: 2px;
+    background-color: white;
+    margin: 8px auto;
+}
+
+.evidenziazione {
+    color: yellow !important;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/****** PIE' PAGINA ******/
+
+#par_pie {
+    float: left;
+    line-height: 30px;
+    margin-left: 100px;
+}
+
+.fgtl {
+    float: right;
+    padding-top: 5px;
+}
+
+.menu li {
+    list-style: none;
+    width: 20px;
+    float: left;
+    margin-right: 15px;
+}
+
+.menu li:last-child {
+    margin-right: 100px;
+}
+
+.menu li a {
+    display: block;
+    width: 20px;
+    height: 0;
+    padding-top: 20px;
+    overflow: hidden;
+    font-size: 120px;
+    color: #fff;
+}
+
+.fgtl a {
+    background: url(../img/social.png) no-repeat #fff;
+    border-radius: 2px;
+    transition: background-position 0.3s;
+}
+
+
+/*
+.my_text_box:after {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: -55px;
+    height: 137%;
+    width: 100%;
+    background: linear-gradient(transparent, #fff9f1);
+    pointer-events: none;
+}*/
+
+.fgtl .facebook {
+    background-position: -20px 0;
+}
+
+.fgtl .google {
+    background-position: 0 0;
+}
+
+.fgtl .twitter {
+    background-position: -40px 0;
+}
+
+.fgtl .linkedin {
+    background-position: -60px 0;
+}
+
+.fgtl .facebook:hover {
+    background-position: -20px -20px;
+}
+
+.fgtl .google:hover {
+    background-position: 0 -20px;
+}
+
+.fgtl .twitter:hover {
+    background-position: -40px -20px;
+}
+
+.fgtl .linkedin:hover {
+    background-position: -60px -20px;
+}
